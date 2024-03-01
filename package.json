@@ -9,7 +9,7 @@
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "lint:fix": "next lint --fix",
-    "preview": "next build && next start",
+    "preview": "yarn install && next build && next start",
     "format:check": "prettier --check \"**/*.{ts,tsx}\" --cache",
     "format:write": "prettier --write \"**/*.{ts,tsx}\" --cache"
   },
