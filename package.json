@@ -13,6 +13,7 @@
     "format:check": "prettier --check \"**/*.{ts,tsx}\" --cache",
     "format:write": "prettier --write \"**/*.{ts,tsx}\" --cache"
   },
+  "packageManager": "yarn@1.22.19",
   "dependencies": {
     "next": "14.1.1",
     "react": "^18",
